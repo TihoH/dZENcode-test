@@ -2,16 +2,21 @@ import { Link, useLocation } from "react-router-dom";
 import clases from "./sidebar.module.css";
 import userImg from "../../assets/images/user.jpg";
 import { Settings } from "lucide-react";
+import { SidebarLink, User } from "../../types/all";
+
+
+
 
 export default function Sidebar() {
-  const sidebarLinks = [
+  
+  const sidebarLinks:SidebarLink[] = [
     { id: 1, title: "Приход", path: "/" },
     { id: 2, title: "Группы", path: "/groups" },
     { id: 3, title: "Продукты", path: "/products" },
     { id: 4, title: "Пользователи", path: "/users" },
     { id: 5, title: "Настройки", path: "/settings" },
-  ]; // id - указан максимально просто
-  const user = { id: 1, image: userImg };
+  ]; 
+  const user:User = { id: 1, image: userImg };
   const location = useLocation();
 
   return (

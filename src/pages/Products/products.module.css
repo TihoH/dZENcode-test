@@ -1,6 +1,7 @@
 .products{
     padding: 50px 100px;
     min-height: 500px;
+
 }
 .products__list{
     display: flex;
@@ -33,7 +34,7 @@
   cursor: pointer;
 }
 .products__item:last-child {
-  border-bottom: none;
+ 
 }
 
 .products__item > h2 {

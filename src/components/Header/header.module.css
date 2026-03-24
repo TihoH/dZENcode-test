@@ -23,6 +23,7 @@
     border: none;
     outline: none;
     box-shadow: 0 0px 2px black;
+    border-radius: 5px;
     
 }
 .todeyDate_container{
