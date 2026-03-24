@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #8bc34a;
+  --color-border: rgb(190, 190, 190);
+  --color-bg: white;
+  --color-text: #555555;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+a{
+  color: black;
+}
+
+.deleteProduct{
+  border: none;
+  background-color: transparent;
+  color: gray;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: end;
+  max-width: 50px;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.deleteProduct:hover {
+  scale: 140%;
+
+}

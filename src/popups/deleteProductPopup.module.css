@@ -1,0 +1,84 @@
+.deleteItem__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.buttonsContainer {
+  background-color: #85bd47;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.buttonsContainer button {
+  border: none;
+  background-color: transparent;
+  padding: 15px 50px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.buttonsContainer button:last-child {
+  background-color: white;
+  color: rgb(177, 5, 5);
+  text-transform: uppercase;
+  box-shadow: 0 5px 15px rgb(112, 112, 112);
+}
+
+.buttonsContainer button:hover {
+  background-color: rgb(194, 194, 194);
+  color: black;
+}
+.deleteItem {
+  width: 100%;
+}
+.deleteItem__desc {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.deleteItem > p {
+
+  font-size: 24px;
+  font-weight: 600;
+  padding: 30px 40px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+.deleteItem__desc > div {
+  display: flex;
+  flex-direction: column;
+}
+.deleteItem__desc div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.deleteItem__desc img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.deleteItem__desc::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #85bd47;
+  margin-right: 20px;
+}
+
+.deleteItem__desc > div > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.deleteItem__seriesNum{
+    color: gray;
+}

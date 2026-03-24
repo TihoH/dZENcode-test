@@ -1,0 +1,48 @@
+.header{
+    padding: 0 240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerLogoSearch{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    width: 100%;
+
+}
+.headerLogo{
+    width: 200px;
+}
+.search {
+    max-width: 350px;
+    width: 100%;
+    padding: 10px;
+    background-color: #F0F3F5;
+    border: none;
+    outline: none;
+    box-shadow: 0 0px 2px black;
+    
+}
+.todeyDate_container{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    font-size: 18px;
+}
+.search::placeholder {
+    color: black;
+    font-weight: 700;
+}
+
+.todeyDate {
+  display: flex;
+  flex-direction: column;
+min-width: 120px;
+}
+
+.iconTime{
+    display: flex;
+    gap: 10px;
+}

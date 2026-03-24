@@ -1,0 +1,43 @@
+.sortItem{
+    width: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.sortItem__dropFilter{
+    position: absolute;
+    transition: 0.3s;
+    opacity: 0;
+    top: 50px;
+    width: 100%;
+     background-color: white;
+     z-index: 1000;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+     padding-bottom: 10px;
+     pointer-events: none;
+}
+.sortItem__dropFilter li {
+    transition: 0.1s;
+}
+.sortItem__dropFilter li:hover{
+    margin-left: 20px;
+    scale: 110%;
+    color: gray;
+}
+
+.sortItem:hover .sortItem__dropFilter{
+     opacity: 1;
+          pointer-events: all;
+
+} 

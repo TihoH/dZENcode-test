@@ -1,0 +1,162 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "title": "Оснащение офиса техникой",
+      "date": "2017-06-29 12:09:33",
+      "description": "Закупка мониторов, клавиатур и аудио оборудования для сотрудников"
+    },
+    {
+      "id": 2,
+      "title": "Обновление IT-инфраструктуры",
+      "date": "2017-06-29 12:09:33",
+      "description": "Замена устаревших устройств и сетевого оборудования"
+    },
+    {
+      "id": 3,
+      "title": "Оборудование рабочих мест",
+      "date": "2017-06-29 12:09:33",
+      "description": "Поставка мебели и аксессуаров для комфортной работы"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "serialNumber": 12345678,
+      "isNew": 1,
+      "photo": "1.webp",
+      "title": "Dell UltraSharp U2720Q 27-inch 4K IPS Monitor with USB-C and HDR Support",
+      "type": "Monitors",
+      "specification": "27\" IPS, 4K UHD, USB-C, HDR",
+      "guarantee": { "start": "2017-06-29", "end": "2019-06-29" },
+      "price": [
+        { "value": 450, "symbol": "USD", "isDefault": 0 },
+        { "value": 18000, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 1,
+      "date": "2017-06-29",
+      "status": "свободен"
+    },
+    {
+      "id": 2,
+      "serialNumber": 23456789,
+      "isNew": 0,
+      "photo": "2.webp",
+      "title": "Logitech K120 Wired USB Keyboard Full Size with Spill-Resistant Design",
+      "type": "Keyboards",
+      "specification": "USB, Full Size, Spill Resistant",
+      "guarantee": { "start": "2018-01-01", "end": "2020-01-01" },
+      "price": [
+        { "value": 20, "symbol": "USD", "isDefault": 0 },
+        { "value": 800, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 1,
+      "date": "2018-01-01",
+      "status": "ремонт"
+    },
+    {
+      "id": 3,
+      "serialNumber": 34567890,
+      "isNew": 1,
+      "photo": "3.webp",
+      "title": "Logitech MX Master 3 Advanced Wireless Mouse with Hyper-Fast Scrolling",
+      "type": "Mouses",
+      "specification": "Wireless, Bluetooth, Ergonomic",
+      "guarantee": { "start": "2019-05-10", "end": "2021-05-10" },
+      "price": [
+        { "value": 120, "symbol": "USD", "isDefault": 0 },
+        { "value": 4800, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 2,
+      "date": "2019-05-10",
+      "status": "активный"
+    },
+    {
+      "id": 4,
+      "serialNumber": 45678901,
+      "isNew": 1,
+      "photo": "4.webp",
+      "title": "Apple MacBook Pro 14-inch M1 Pro 16GB RAM 512GB SSD Space Gray",
+      "type": "Laptops",
+      "specification": "M1 Pro, 16GB RAM, 512GB SSD",
+      "guarantee": { "start": "2021-01-01", "end": "2023-01-01" },
+      "price": [
+        { "value": 2200, "symbol": "USD", "isDefault": 0 },
+        { "value": 88000, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 2,
+      "date": "2021-01-01",
+      "status": "свободен"
+    },
+    {
+      "id": 5,
+      "serialNumber": 56789012,
+      "isNew": 1,
+      "photo": "5.webp",
+      "title": "Sony WH-1000XM5 Wireless Noise Cancelling Over-Ear Headphones Black",
+      "type": "Audio",
+      "specification": "Bluetooth, Noise Cancelling",
+      "guarantee": { "start": "2022-02-01", "end": "2024-02-01" },
+      "price": [
+        { "value": 350, "symbol": "USD", "isDefault": 0 },
+        { "value": 14000, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 1,
+      "date": "2022-02-01",
+      "status": "активный"
+    },
+    {
+      "id": 6,
+      "serialNumber": 67890123,
+      "isNew": 0,
+      "photo": "6.webp",
+      "title": "TP-Link Archer AX50 AX3000 Dual Band Wi-Fi 6 Gigabit Router",
+      "type": "Networking",
+      "specification": "Wi-Fi 6, Dual Band, Gigabit",
+      "guarantee": { "start": "2020-06-10", "end": "2022-06-10" },
+      "price": [
+        { "value": 120, "symbol": "USD", "isDefault": 0 },
+        { "value": 4800, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 2,
+      "date": "2020-06-10",
+      "status": "ремонт"
+    },
+    {
+      "id": 7,
+      "serialNumber": 78901234,
+      "isNew": 1,
+      "photo": "7.webp",
+      "title": "Ergonomic Office Chair with Lumbar Support Adjustable Height and Armrests",
+      "type": "Furniture",
+      "specification": "Adjustable Height, Lumbar Support",
+      "guarantee": { "start": "2023-01-15", "end": "2025-01-15" },
+      "price": [
+        { "value": 250, "symbol": "USD", "isDefault": 0 },
+        { "value": 10000, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 3,
+      "date": "2023-01-15",
+      "status": "свободен"
+    },
+    {
+      "id": 8,
+      "serialNumber": 89012345,
+      "isNew": 1,
+      "photo": "8.webp",
+      "title": "USB-C Docking Station with HDMI USB 3.0 Ethernet Multiport Adapter",
+      "type": "Accessories",
+      "specification": "HDMI, USB 3.0, Ethernet",
+      "guarantee": { "start": "2022-09-01", "end": "2024-09-01" },
+      "price": [
+        { "value": 180, "symbol": "USD", "isDefault": 0 },
+        { "value": 7200, "symbol": "UAH", "isDefault": 1 }
+      ],
+      "order": 3,
+      "date": "2022-09-01",
+      "status": "активный"
+    }
+  ]
+
+}
