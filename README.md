@@ -1,20 +1,53 @@
-<<<<<<< HEAD
-# React + Vite
+# Orders & Products
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SPA-приложение для управления заказами и продуктами, реализованное на React + TypeScript.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://d-ze-ncode-test-one.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Технологии
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Vite
+- React Router DOM
+- CSS Modules
+- Lucide React
+- Docker
+- Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# dZENcode-test
->>>>>>> adc3cf4ef2b7ce364bda846d5523c429407ec49b
+---
+
+## 📦 Функционал
+
+- отображение списка заказов
+- отображение списка продуктов
+- переходы между страницами
+- удаление продукта / заказа через popup
+- фильтрация продуктов
+- подсчёт цен в разных валютах
+
+---
+
+## ⚙️ Установка и запуск
+
+```bash
+npm install
+npm run dev
+
+🏗 Сборка проекта
+npm run build
+
+👀 Preview production
+npm run preview
+
+🐳 Запуск через Docker
+docker build -t my-app .
+docker run -p 5173:5173 my-app
+
+👨‍💻 Автор
+
+Taras Khomaiko
